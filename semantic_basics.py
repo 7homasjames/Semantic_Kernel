@@ -5,7 +5,8 @@ from semantic_kernel.connectors.ai.open_ai import OpenAIChatCompletion
 from semantic_kernel.prompt_template import PromptTemplateConfig
 
 # Set up the environment variables (you can alternatively set these directly in the script)
-os.environ['OPENAI_API_KEY'] = "sk-proj-AjfUVEBJrRezBiQOyJdWT3BlbkFJBrXVvwE72vxBWnlbR8vT"
+load_dotenv()
+os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
 
 async def main():
     kernel = Kernel()
