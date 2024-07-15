@@ -17,7 +17,7 @@ os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
 
 
 # Streamlit app
-st.title('PDF Question Answering System')
+st.title('Semantic Kernel Question Answering System💬')
 
 uploaded_files = st.file_uploader("Choose PDF files", type="pdf", accept_multiple_files=True)
 
@@ -34,7 +34,7 @@ if uploaded_files:
         chunks = textwrap.wrap(pdf_text, chunk_size)
         all_chunks.extend(chunks)
     
-    st.write(f"Total extracted text length: {sum(len(chunk) for chunk in all_chunks)} characters")
+    #st.write(f"Total extracted text length: {sum(len(chunk) for chunk in all_chunks)} characters")
     st.write(f"Total number of chunks: {len(all_chunks)}")
 
     query = st.text_input("Type HI to Initialize the Semantic Kernel and then Ask question")
