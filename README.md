@@ -20,8 +20,13 @@ The Streamlit application is demonstrated in `app.py`, which converts the RAG mo
    ```bash
     git clone https://github.com/7homasjames/Semantic_Kernel.git
     ```
+2. Create a virtual Enviornmnet:
+   ```bash
+    python -m venv venv
 
-2. Install the required packages:
+    ```
+
+3. Install the required packages:
 
     ```bash
     pip install -r requirements.txt
