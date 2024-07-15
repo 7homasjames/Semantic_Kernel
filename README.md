@@ -1,6 +1,7 @@
 # Semantic_Kernel
-Semantic Kernel is a framework developed by Microsoft that facilitates the integration of Large Language Models (LLMs) with conventional programming languages
-![image](https://github.com/user-attachments/assets/9748b258-74e6-469e-8e09-9fbb25378ed3)
+Semantic Kernel (SK) is an open-source framework developed by Microsoft, designed to integrate AI models with traditional programming languages, providing a bridge between natural language processing (NLP) and software development. The framework is particularly useful for building and deploying AI-powered applications, allowing developers to leverage the capabilities of large language models like GPT-4 within their own applications.
+![image](https://github.com/user-attachments/assets/6afb9678-ef0e-4b67-b32f-31aa6ad93846)
+
 
 ## Into the Code
 
